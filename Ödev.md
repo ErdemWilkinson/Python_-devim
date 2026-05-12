@@ -1,4 +1,3 @@
 [# Python_-devim](https://colab.research.google.com/drive/1fXg3tj9KufPE-Nd-Wirh06ptVI6kQQdP?usp=sharing)
-[Adsız doküman.pdf](https://github.com/user-attachments/files/27605530/Adsiz.dokuman.pdf)
+[446764_450657.zip](https://github.com/user-attachments/files/27656805/446764_450657.zip)
 
-Python dersi için verilen yıl sonu dönem ödevi
