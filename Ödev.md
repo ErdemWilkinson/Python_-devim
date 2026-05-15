@@ -34,10 +34,13 @@ Her müşterinin aylık ücreti tutar_hesapla() fonksiyonuna gönderilir. Fonksi
 Benzersiz Hizmet Listesi:
 Şirkette sunulan hizmetler tekrarlı olarak listeye girilmiş olsa bile set() yapısı bu tekrarları otomatik temizler ve yalnızca benzersiz hizmetleri gösterir.
 
-Churn (Ayrılma Riski) Tespiti
+Churn (Ayrılma Riski) Tespiti,
+
 Döngü her müşteriyi gezerken üç sinyal kontrol edilir:
+
 SinyalAnlamHesap pasifAyrılma süreci başlamış olabilirSadakat < 12 ayBağlılık henüz oluşmamıştırÜcret < 250 TLAz hizmet kullanıyor, vazgeçmesi kolaydır
 Bu üç koşuldan herhangi biri sağlandığında müşteri CHURN RİSKİ olarak işaretlenir.
+
 Fatura Tarihi
 
 Tüm işlemler tamamlandıktan sonra datetime kütüphanesi ile o anın tarihi ve saati otomatik olarak faturanın altına eklenir.
