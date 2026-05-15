@@ -35,6 +35,7 @@ Fatura Hesaplama:
 Her müşterinin aylık ücreti tutar_hesapla() fonksiyonuna gönderilir. Fonksiyon üzerine %20 KDV ekler ve sonucu geri döndürür. Dönen değer math.ceil() ile yukarı yuvarlanır; böylece faturada hiçbir zaman ondalıklı bir tutar görünmez.
 
 Benzersiz Hizmet Listesi:
+
 Şirkette sunulan hizmetler tekrarlı olarak listeye girilmiş olsa bile set() yapısı bu tekrarları otomatik temizler ve yalnızca benzersiz hizmetleri gösterir.
 
 Churn (Ayrılma Riski) Tespiti,
