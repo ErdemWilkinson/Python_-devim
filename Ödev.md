@@ -12,7 +12,8 @@ Proje Nedir?
 Bu proje, bir telekomünikasyon şirketinin müşterilerini Python ile yönetmek ve analiz etmek için yazılmış bir simülasyon sistemidir. Tek bir müşterinin verilerini tanımlamaktan başlayıp birden fazla müşteriyi otomatik olarak işlemeye, fatura hesaplamaya ve ayrılma (churn) riski taşıyan müşterileri tespit etmeye kadar uzanan iki aşamalı bir yapıya sahiptir.
 
 Nasıl Çalışır?
-1. Kısım — Tek Müşteri Temsili
+1. Kısım — Tek Müşteri Temsili:
+   
 İlk aşamada sistemin temel taşları kurulur. Bir müşteriye ait ad, aylık ücret, sadakat süresi ve hesap durumu bilgileri Python değişkenleriyle tanımlanır. Bu bilgiler bir sözlük (dictionary) yapısına aktarılır; böylece her alana musteri["ad_soyad"] gibi anlamlı bir isimle erişilebilir.
 Ardından müşteri, aylık ücreti ve sadakat süresi baz alınarak sınıflandırılır:
 
@@ -25,8 +26,8 @@ Son olarak müşterinin adı büyük harfe çevrilir ve IST-2026-XXXX formatınd
 
 
 
-2. Kısım — Çoklu Müşteri Yönetimi ve Analiz
-3. 
+2. Kısım — Çoklu Müşteri Yönetimi ve Analiz:
+
 İkinci aşamada sistem gerçekçi bir boyut kazanır; tek müşteri yerine 5 müşteriden oluşan bir liste üzerinde çalışılır.
 
 Fatura Hesaplama:
