@@ -27,16 +27,18 @@ Son olarak müşterinin adı büyük harfe çevrilir ve IST-2026-XXXX formatınd
 
 2. Kısım — Çoklu Müşteri Yönetimi ve Analiz
 İkinci aşamada sistem gerçekçi bir boyut kazanır; tek müşteri yerine 5 müşteriden oluşan bir liste üzerinde çalışılır.
-Fatura Hesaplama
+
+Fatura Hesaplama:
 Her müşterinin aylık ücreti tutar_hesapla() fonksiyonuna gönderilir. Fonksiyon üzerine %20 KDV ekler ve sonucu geri döndürür. Dönen değer math.ceil() ile yukarı yuvarlanır; böylece faturada hiçbir zaman ondalıklı bir tutar görünmez.
-Benzersiz Hizmet Listesi
+
+Benzersiz Hizmet Listesi:
 Şirkette sunulan hizmetler tekrarlı olarak listeye girilmiş olsa bile set() yapısı bu tekrarları otomatik temizler ve yalnızca benzersiz hizmetleri gösterir.
+
 Churn (Ayrılma Riski) Tespiti
 Döngü her müşteriyi gezerken üç sinyal kontrol edilir:
 SinyalAnlamHesap pasifAyrılma süreci başlamış olabilirSadakat < 12 ayBağlılık henüz oluşmamıştırÜcret < 250 TLAz hizmet kullanıyor, vazgeçmesi kolaydır
 Bu üç koşuldan herhangi biri sağlandığında müşteri CHURN RİSKİ olarak işaretlenir.
 Fatura Tarihi
+
 Tüm işlemler tamamlandıktan sonra datetime kütüphanesi ile o anın tarihi ve saati otomatik olarak faturanın altına eklenir.
 
-Kullanılan Kütüphaneler
-KütüphaneKullanım AmacırandomBenzersiz müşteri ID üretimimathFatura tutarını yukarı yuvarlamadatetimeFatura tarihini otomatik ekleme
