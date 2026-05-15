@@ -2,6 +2,9 @@
 [446764_450657.zip](https://github.com/user-attachments/files/27656805/446764_450657.zip)
 
 <img width="806" height="643" alt="image" src="https://github.com/user-attachments/assets/5ed95279-b4cb-4421-a3b2-c9f02a1a7a61" />
+
+
+
 📱 Akıllı Müşteri Yönetim ve Analiz Sistemi
 Telco (Telekomünikasyon) Senaryosu | Python
 
@@ -19,6 +22,8 @@ Bu koşulların hiçbiri sağlanmıyorsa → Standart
 Son olarak müşterinin adı büyük harfe çevrilir ve IST-2026-XXXX formatında benzersiz bir müşteri kimliği (customerID) otomatik olarak üretilir.
 
 <img width="611" height="631" alt="image" src="https://github.com/user-attachments/assets/291e13dc-fc4b-4c6a-8a34-21eed33b591e" />
+
+
 
 2. Kısım — Çoklu Müşteri Yönetimi ve Analiz
 İkinci aşamada sistem gerçekçi bir boyut kazanır; tek müşteri yerine 5 müşteriden oluşan bir liste üzerinde çalışılır.
